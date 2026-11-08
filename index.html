@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#203c36">
+  <title>Task Manager · Student 73997</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="page-header">
+      <a class="wordmark" href="index.html" aria-label="Task Manager home"><span class="brand-mark" aria-hidden="true">✓</span> VISTULA / TEAM PROJECT</a>
+      <p class="student-badge">STUDENT <span id="student-id">73997</span></p>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <div><p class="eyebrow">A LITTLE STRUCTURE. MORE PROGRESS.</p><h1 id="page-title">Task Manager</h1><p class="intro-copy">Make room for what matters. One task at a time.</p></div>
+        <div class="progress-card"><span class="eyebrow">YOUR PROGRESS</span><p><strong id="completed-count">0</strong><span> / <span id="total-count">0</span> completed</span></p><progress id="task-progress" max="1" value="0" aria-label="Completed tasks"></progress></div>
+      </section>
+      <p id="status-message" class="status-message" role="status" aria-live="polite"></p>
+      <div class="workspace">
+        <section class="form-panel" aria-labelledby="form-heading">
+          <p class="eyebrow">PLAN YOUR NEXT STEP</p><h2 id="form-heading">Add a task</h2>
+          <form id="task-form">
+            <label for="task-title">Task title <span aria-hidden="true">*</span></label>
+            <input id="task-title" name="title" type="text" required maxlength="200" placeholder="What needs to get done?" autocomplete="off">
+            <label for="task-description">Description <span class="optional">Optional</span></label>
+            <textarea id="task-description" name="description" rows="5" maxlength="4000" placeholder="Add a few details…"></textarea>
+            <button id="task-submit" type="submit" class="primary-button" disabled>Add task <span aria-hidden="true">↗</span></button>
+            <button id="cancel-edit" type="button" class="secondary-button" hidden>Cancel editing</button>
+          </form>
+          <p class="storage-note"><span aria-hidden="true">↻</span> Saved to Supabase. Ready when you return.</p>
+        </section>
+        <section class="list-panel" aria-labelledby="list-heading" aria-busy="true">
+          <div class="list-header"><div><p class="eyebrow">KEEP THINGS MOVING</p><h2 id="list-heading">Your tasks</h2></div><button id="refresh-tasks" type="button" class="text-button" disabled>Refresh</button></div>
+          <div class="list-tools"><div class="filters" role="group" aria-label="Filter tasks"><button type="button" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="active" aria-pressed="false">Active</button><button type="button" data-filter="completed" aria-pressed="false">Completed</button></div><label class="search-label" for="task-search"><span class="sr-only">Search tasks</span><input id="task-search" type="search" placeholder="Search tasks"></label></div>
+          <ul id="task-list" aria-label="Tasks"></ul>
+          <div id="empty-state" class="empty-state"><span class="empty-icon" aria-hidden="true">✓</span><h3 id="empty-title">Loading your tasks…</h3><p id="empty-description">Getting everything ready.</p></div>
+          <p id="visible-count" class="visible-count"></p>
+        </section>
+      </div>
+    </main>
+    <footer><span>Small steps. Steady progress.</span><a id="contribution-link" href="contribution.html">Team contribution <span aria-hidden="true">↗</span></a></footer>
+  </div>
+</body>
+</html>
