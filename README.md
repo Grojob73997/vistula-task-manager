@@ -4,13 +4,13 @@ A responsive task manager built with HTML, CSS and JavaScript. Tasks are stored 
 
 ## Links
 
-- Repository: https://github.com/Grojob73997/vistula-task-manager
-- Live app: https://grojob73997.github.io/vistula-task-manager/
+- Repository: https://github.com/vistula-team-project-73997/vistula-task-manager
+- Live app: https://vistula-team-project-73997.github.io/vistula-task-manager/
 - Student A's repository: https://github.com/vistula-team-project-74169/vistula-task-manager
 - My PR merged into Student A's repository: https://github.com/vistula-team-project-74169/vistula-task-manager/pull/1
-- Student A's PR merged into this repository: https://github.com/Grojob73997/vistula-task-manager/pull/1
+- Student A's PR merged into this repository: https://github.com/vistula-team-project-73997/vistula-task-manager/pull/1
 
-The owner chose to keep the existing GitHub username `Grojob73997`. The student ID is `73997`; the account name therefore differs from the assignment's `vistula-team-project-73997` convention.
+The GitHub account was renamed to `vistula-team-project-73997` on 8 November 2026, matching the assignment requirement for student `73997`.
 
 ## Features
 
@@ -42,8 +42,8 @@ In GitHub **Settings → Pages**, choose **Deploy from a branch**, `main`, `/(ro
 
 Student A added `contribution.html` and `contribution.json` through the reviewed and merged return PR linked above. The `contribution-link` in `index.html` opens the contribution page. Choose **Show Contributor** to load `contribution.json` and display **Contributor Student ID: 74169**.
 
-- Contribution page: https://grojob73997.github.io/vistula-task-manager/contribution.html
-- Contributor JSON: https://grojob73997.github.io/vistula-task-manager/contribution.json
+- Contribution page: https://vistula-team-project-73997.github.io/vistula-task-manager/contribution.html
+- Contributor JSON: https://vistula-team-project-73997.github.io/vistula-task-manager/contribution.json
 
 ## Verification
 
