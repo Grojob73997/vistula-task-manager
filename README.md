@@ -7,8 +7,8 @@ A responsive task manager built with HTML, CSS and JavaScript. Tasks are stored 
 - Repository: https://github.com/Grojob73997/vistula-task-manager
 - Live app: https://grojob73997.github.io/vistula-task-manager/
 - Student A's repository: https://github.com/vistula-team-project-74169/vistula-task-manager
-- My PR to Student A: https://github.com/vistula-team-project-74169/vistula-task-manager/pull/1
-- Student A's PR to this repository: Awaiting Student A; not merged.
+- My PR merged into Student A's repository: https://github.com/vistula-team-project-74169/vistula-task-manager/pull/1
+- Student A's PR merged into this repository: https://github.com/Grojob73997/vistula-task-manager/pull/1
 
 The owner chose to keep the existing GitHub username `Grojob73997`. The student ID is `73997`; the account name therefore differs from the assignment's `vistula-team-project-73997` convention.
 
@@ -40,10 +40,13 @@ In GitHub **Settings → Pages**, choose **Deploy from a branch**, `main`, `/(ro
 
 ## Team contribution
 
-The `contribution-link` in `index.html` points to `contribution.html`. Student A must add `contribution.html` and `contribution.json` to this repository through a PR. They are deliberately absent until that PR is reviewed and merged by the owner. After the merge, record both actual PR URLs above.
+Student A added `contribution.html` and `contribution.json` through the reviewed and merged return PR linked above. The `contribution-link` in `index.html` opens the contribution page. Choose **Show Contributor** to load `contribution.json` and display **Contributor Student ID: 74169**.
+
+- Contribution page: https://grojob73997.github.io/vistula-task-manager/contribution.html
+- Contributor JSON: https://grojob73997.github.io/vistula-task-manager/contribution.json
 
 ## Verification
 
-Add a sample task, refresh to confirm persistence, edit its title and description, complete it, mark it active again, and delete it. Check empty and filtered lists, error messages, and a narrow mobile viewport. When Student A's PR has been merged, follow Team contribution and choose Show Contributor.
+Add a sample task, refresh to confirm persistence, edit its title and description, complete it, mark it active again, and delete it. Check empty and filtered lists, error messages, and a narrow mobile viewport. Follow Team contribution and choose Show Contributor to check student ID 74169.
 
 Verified on 8 November 2026: live Supabase REST create/read/edit/complete/uncomplete/delete; browser add/edit/complete/uncomplete, refresh persistence, search and filters; literal rendering of HTML-like text; mobile layout without horizontal overflow. The browser automation stalled while opening the native delete confirmation, so the final browser deletion was not verified; REST deletion was verified separately. Disposable verification records were removed.
