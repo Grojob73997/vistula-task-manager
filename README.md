@@ -5,7 +5,7 @@ A responsive task manager built with HTML, CSS and JavaScript. Tasks are stored 
 ## Links
 
 - Repository: https://github.com/Grojob73997/vistula-task-manager
-- Live app (once Pages is enabled): https://Grojob73997.github.io/vistula-task-manager/
+- Live app: https://grojob73997.github.io/vistula-task-manager/
 - Student A's repository: https://github.com/vistula-team-project-74169/vistula-task-manager
 - My PR to Student A: https://github.com/vistula-team-project-74169/vistula-task-manager/pull/1
 - Student A's PR to this repository: Awaiting Student A; not merged.
@@ -45,3 +45,5 @@ The `contribution-link` in `index.html` points to `contribution.html`. Student A
 ## Verification
 
 Add a sample task, refresh to confirm persistence, edit its title and description, complete it, mark it active again, and delete it. Check empty and filtered lists, error messages, and a narrow mobile viewport. When Student A's PR has been merged, follow Team contribution and choose Show Contributor.
+
+Verified on 8 November 2026: live Supabase REST create/read/edit/complete/uncomplete/delete; browser add/edit/complete/uncomplete, refresh persistence, search and filters; literal rendering of HTML-like text; mobile layout without horizontal overflow. The browser automation stalled while opening the native delete confirmation, so the final browser deletion was not verified; REST deletion was verified separately. Disposable verification records were removed.
